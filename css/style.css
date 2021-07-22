@@ -146,10 +146,19 @@ a:hover {
     padding: 150px 0 150px;
     min-height: 100vh;
 }
-#home {
-    background: url(../images/b-back.jpg) no-repeat;
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("");
+    background-color: rgba(56, 149, 185, 0.658);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+canvas {    
+    display: block;
 }
 .banner-content h1 {
     font-weight: 600;
