@@ -101,12 +101,9 @@ a:hover {
 .large {
     height: 100px;
 }
-.navbar-toggler {
-    margin-right: 20px;
-}
+
 .navbar-brand {
     color: #ffff;
-    margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
