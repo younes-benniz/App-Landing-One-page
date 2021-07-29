@@ -41,5 +41,11 @@ $(document).ready(function() {
     $(window).on('scroll', function () {
         counter();
     });
-    
+    wow = new WOW(
+        {
+          animateClass: 'animated',
+          offset:       100,
+        }
+      );
+      wow.init(); 
 });
