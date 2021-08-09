@@ -100,6 +100,8 @@ a:hover {
 }
 .large {
     height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .navbar-brand {
@@ -141,21 +143,12 @@ a:hover {
 /* home banner */
 .banner {
     padding: 150px 0 150px;
-    min-height: 100vh;
-}
 
-#particles-js {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-image: url("");
-    background-color: rgba(56, 149, 185, 0.658);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
 }
-canvas {    
-    display: block;
+#home {
+    padding: 140px 0 60px;
+    background-color: #3895b9a8;
+    min-height: 100vh;
 }
 .banner-content h1 {
     font-weight: 600;
@@ -170,7 +163,7 @@ canvas {
     margin-left: 20px;
 }
 .phone-thumb {
-    max-height: 500px;
+    max-height: 450px;
 }
 @media screen and (max-width: 767px) {
     .phone-thumb {
